@@ -1,8 +1,24 @@
 aid: loyalfordogs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loyalfordogs.png
 name: Loyalfordogs
-description: Loyalfordogs is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Loyal (Cellular Longevity, Inc., loyalfordogs.com redirects to loyal.com) is a San
+  Francisco biotech developing longevity drugs for dogs that target the underlying processes of aging
+  to extend healthy lifespan in senior dogs. Its lead candidate, LOY-002, targets metabolic
+  dysfunction in dogs aged ten and older and is progressing through FDA approval. The company serves
+  veterinary professionals and dog owners with clinical and care resources and runs clinical trials;
+  it publishes no developer API, documentation, SDKs, or public code repositories. Surfaced as a
+  portfolio company of Khosla Ventures and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/loyalfordogs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Animal Health
+- Veterinary
+- Longevity
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/loyalfordogs-domain-security.yml
 - type: Website
   url: https://loyalfordogs.com/
+- type: Website
+  url: https://loyal.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
